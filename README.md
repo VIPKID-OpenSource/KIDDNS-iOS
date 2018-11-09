@@ -29,7 +29,8 @@ pod 'KIDDNS'
 使用配置项初始化`HTTPDNS`服务，配置项包含阿里云应用的appId和appKey, 以及app需要预解析的域名列表。
 
 ```objc
-NSArray<NSString *> *presolvedHostlist = @[@"api.abc.com", @"gateway.abc.com"];KIDDNSConfig *config = [KIDDNSConfig new];
+NSArray<NSString *> *presolvedHostlist = @[@"api.abc.com", @"gateway.abc.com"];
+KIDDNSConfig *config = [KIDDNSConfig new];
 config.accountId = 100000;
 config.key = @"your app key";
 config.presolvedHosts = presolvedHostlist;
