@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KIDDNS'
-  s.version          = '0.1.4'
+  s.version          = '1.0.0'
   s.summary          = 'Using HTTPDNS over your network'
   s.static_framework = true
 
