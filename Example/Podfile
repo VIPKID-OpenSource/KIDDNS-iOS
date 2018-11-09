@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/aliyun/aliyun-specs'
+
+
+target 'KIDDNS_Example' do
+  pod 'KIDDNS', :path => '../'
+
+  target 'KIDDNS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

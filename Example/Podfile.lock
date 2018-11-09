@@ -1,0 +1,41 @@
+PODS:
+  - AlicloudBeacon (1.1.0):
+    - AlicloudUTDID
+  - AlicloudHTTPDNS (1.6.18):
+    - AlicloudBeacon
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.5):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.19)
+  - AlicloudUtils (1.3.5):
+    - AlicloudUTDID
+  - KIDDNS (0.1.3):
+    - AlicloudHTTPDNS
+
+DEPENDENCIES:
+  - KIDDNS (from `../`)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudBeacon
+    - AlicloudHTTPDNS
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+
+EXTERNAL SOURCES:
+  KIDDNS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlicloudBeacon: 784b88ccbe7939660dc2d6736ef90ad47bcbb2c3
+  AlicloudHTTPDNS: 7876dee3783255cebe9a32ca68f22c606ecb07ba
+  AlicloudUT: 1b52965b97c5fc0b630901ce184391fbe1ef8479
+  AlicloudUTDID: 14b582e41b39bc66e5a3420b61dafd0567ef4603
+  AlicloudUtils: 36bd836fdd5c040ee0c9c06b0e1e1096a8c59c44
+  KIDDNS: 5723de0c512f1038ddf96d2512a9d23d367c91f9
+
+PODFILE CHECKSUM: d81fc102acbd9808040e346b715130feb04f8dc1
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,9 @@
+{
+  "BusVersion": "~> 1.0",
+  "PluginVersion": "0.1.1",
+  "MainClass": "HybridServer",
+  "PluginHost": "hybrid",
+  "PluginId": "hybrid",
+  "Permissions": "",
+  "PluginUri": "http"
+}
