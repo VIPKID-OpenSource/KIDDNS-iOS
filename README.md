@@ -18,6 +18,13 @@ it, simply add the following line to your Podfile:
 pod 'KIDDNS'
 ```
 
+Podfile中需要添加VIPKID的Spec源，以及阿里云的Spec源
+
+```ruby
+source "https://github.com/VIPKID-OpenSource/Specs"
+source "https://github.com/aliyun/aliyun-specs"
+```
+
 ## 前提条件
 
 需要拥有阿里云账号，并创建了开通HTTPDNS服务的应用。且阿里云控制台中配置好了app里需要开通HTTPDNS服务的域名。
